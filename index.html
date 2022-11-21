@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundBoard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <div id="HTMLBackGround" class="BorderRadius">
+        <h1>sound board</h1>
+        <div id="TryPlay">click to play</div>
+        <div id="SoundBordBack" class="BorderRadius">
+            <div class="BorderRadius Bord" onclick="ImgOnClick('rain')"><img src="小雨.png" alt="小雨"></div>
+            <div class="BorderRadius Bord" onclick="ImgOnClick('keyboard')"><img src="键盘.png" alt="键盘"></div>
+            <div class="BorderRadius Bord" onclick="ImgOnClick('danger')"><img src="0601-重大危险.png" alt="危险"></div>
+        </div>
+    </div>
+    <audio id="rain" src="y1349.mp3" preload></audio>
+    <audio id="keyboard" src="y1330.wav" preload></audio>
+    <audio id="danger" src="y1338.wav" preload></audio>
+</body>
+</html>

@@ -1,0 +1,51 @@
+#HTMLBackGround{
+    width: 1820px;
+    height: 800px;
+    margin: auto;
+    background-color: #404040;
+}
+
+.BorderRadius{
+    border-radius: 10px;
+}
+
+h1{
+    height: 70px;
+    font-family: Inter;
+    font-style: Regular;
+    color: aliceblue;
+    font-size: 96px;
+    text-align:center;
+}
+
+#TryPlay{
+    font-family: Inter;
+    font-style: Regular;
+    color: aliceblue;
+    font-size: 48px;    
+    text-align:center;
+}
+
+#SoundBordBack{
+    width: 1580px;
+    height: 420px;
+    background-color: aliceblue;
+    margin: 50px auto;
+    display: flex;
+}
+
+.Bord{
+    width: 320px;
+    height: 320px;
+    background-color: #404040;
+    margin: 50px auto;
+}
+
+img{
+    margin: 96px;
+}
+
+.Bord:hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
